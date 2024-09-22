@@ -1,0 +1,29 @@
+html {
+	background-color: whitesmoke;
+	background-image: url('./images/background.png');
+	background-size: cover;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+	color: whitesmoke;
+	overflow: hidden;
+}
+
+.links {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto;
+	grid-row-gap: 50px;
+	background-color: whitesmoke;
+	padding: 30px;
+	font-size: 40px;
+}
+
+.center {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}

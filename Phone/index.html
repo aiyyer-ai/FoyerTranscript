@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <a href="../index.html" id="backButton">
+        <button class="button2">Back</button>
+      </a>
+      <div class='center' id='gameArea'>
+        <div class="imgcontainer hat" id="hat">
+          <img src='./images/hat.png' height='800px' style='height:40vh;'>
+        </div>
+        <div class='transcription' id='lastTranscription'></div>
+        <div class='transcription' id='transcription'></div>
+        <div class='imgcontainer' id='phone'>
+          <div class='screenText' id='text'>1 New Message</div>
+          <button class='button' id="reciever" onclick="keypad(this.id)"></button>
+          <button class='button' id="one" onclick="keypad(this.id)"></button>
+          <button class='button' id="two" onclick="keypad(this.id)"></button>
+          <button class='button' id="three" onclick="keypad(this.id)"></button>
+          <button class='button' id="four" onclick="keypad(this.id)"></button>
+          <button class='button' id="five" onclick="keypad(this.id)"></button>
+          <button class='button' id="six" onclick="keypad(this.id)"></button>
+          <button class='button' id="seven" onclick="keypad(this.id)"></button>
+          <button class='button' id="eight" onclick="keypad(this.id)"></button>
+          <button class='button' id="nine" onclick="keypad(this.id)"></button>
+          <button class='button' id="star" onclick="keypad(this.id)"></button>
+          <button class='button' id="zero" onclick="keypad(this.id)"></button>
+          <button class='button' id="pound" onclick="keypad(this.id)"></button>
+          <button class='button' id="voicemail" onclick="voicemail(this)"></button>
+          <img src='./images/landline.png' height='800px' style='height:65vh;'>
+        </div>
+      </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>
